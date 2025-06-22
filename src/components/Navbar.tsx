@@ -1,7 +1,7 @@
 
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Menu, X, Code, Users } from "lucide-react";
+import { Menu, X } from "lucide-react";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,11 +11,13 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center space-x-2">
-            <div className="bg-gradient-to-r from-blue-600 to-purple-600 p-2 rounded-lg">
-              <Code className="h-6 w-6 text-white" />
-            </div>
+            <img 
+              src="/lovable-uploads/f0e2014c-f6d9-48c6-ac38-53b47914fa78.png" 
+              alt="4Brains Tech Logo" 
+              className="h-10 w-10"
+            />
             <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              SkillShip
+              4Brains Tech
             </span>
           </div>
 
